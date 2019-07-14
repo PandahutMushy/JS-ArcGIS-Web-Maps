@@ -38,7 +38,6 @@ Minimum viable product:
 
 - Cannot select a different date
 - Under construction, might have a few quirks
-- Feature layer scaling and origin must be adjusted to match the ArcGIS map
 
 ## To be implemented
 
