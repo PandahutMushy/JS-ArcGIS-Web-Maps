@@ -31,7 +31,7 @@ Minimum viable product:
 
 ## Media 
 
-!["Screenshot of index page"](https://github.com/ferrazf/JS-ArcGIS-Web-Maps/blob/master/resources/screenshot1.png)
+!["Screenshot of index page"](https://github.com/ferrazf/JS-ArcGIS-Web-Maps/blob/master/resources/screenshot1.jpg)
 
 ## Known Issues 
 
