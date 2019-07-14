@@ -16,7 +16,7 @@ require([
         container: "viewDiv",
         map: map,
         center: [-79.3850, 43.6480], // longitude, latitude
-        zoom: 15
+        zoom: 6
     });
 
     var basemapToggle = new BasemapToggle({
