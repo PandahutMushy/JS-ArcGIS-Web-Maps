@@ -14,7 +14,11 @@ body,
     .esri-view-height-medium .esri-expand .esri-widget--panel,
     .esri-view-height-medium .esri-expand .esri-widget--panel-height-only,
     .esri-view-height-medium .esri-ui-corner .esri-component.esri-widget--panel,
-    .esri-view-height-medium .esri-ui-corner .esri-component.esri-widget--panel-height-only {
+    .esri-view-height-medium .esri-ui-corner .esri-component.esri-widget--panel-height-only,
+    .esri-view-height-small .esri-expand .esri-widget--panel,
+    .esri-view-height-small .esri-expand .esri-widget--panel-height-only,
+    .esri-view-height-small .esri-ui-corner .esri-component.esri-widget--panel,
+    .esri-view-height-small .esri-ui-corner .esri-component.esri-widget--panel-height-only {
         max-height: 15rem;
         max-width: 60%;
         background-color: #ffffffed;
