@@ -21,7 +21,7 @@ require([
 
     var basemapToggle = new BasemapToggle({
         view: view,
-        nextBasemap: "hybrid"
+        nextBasemap: "topo-vector"
     });
 
     var basemapGallery = new BasemapGallery({
@@ -29,7 +29,7 @@ require([
         source: {
             portal: {
                 url: "https://www.arcgis.com",
-                useVectorBasemaps: false // Load vector tile basemaps
+                useVectorBasemaps: true // Load vector tile basemaps
             }
         }
     });
