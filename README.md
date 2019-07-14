@@ -41,6 +41,6 @@ Minimum viable product:
 
 ## To be implemented
 
+- Search for an address or location
 - Select from various weather data types, such as mean, minimum and maxumim temperature, dewpoint and vapour pressure deficit
 - Display real-time satellite data
-- Select different dates from which to view data

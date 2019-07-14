@@ -5,8 +5,9 @@ require([
     "esri/widgets/BasemapGallery",
     "esri/layers/FeatureLayer",
     "esri/layers/GraphicsLayer",
-    "esri/Graphic"
-], function (Map, MapView, BasemapToggle, BasemapGallery, FeatureLayer, GraphicsLayer, Graphic) {
+    "esri/Graphic",
+    "esri/widgets/Search"
+], function (Map, MapView, BasemapToggle, BasemapGallery, FeatureLayer, GraphicsLayer, Graphic, Search) {
 
     var map = new Map({
         basemap: "satellite"
@@ -19,11 +20,13 @@ require([
         zoom: 6
     });
 
+    //Map style toggle
     var basemapToggle = new BasemapToggle({
         view: view,
         nextBasemap: "topo-vector"
     });
 
+    //Map style gallery
     var basemapGallery = new BasemapGallery({
         view: view,
         source: {
@@ -33,6 +36,13 @@ require([
             }
         }
     });
+
+    // Search widget
+    var search = new Search({
+        view: view
+    });
+
+    view.ui.add(search, "top-right");
 
     // Reference the feature layer to query
     var featureLayer = new FeatureLayer({
@@ -46,5 +56,5 @@ require([
     map.add(featureLayer, 0);
 
     //view.ui.add(basemapToggle, "bottom-right");
-    view.ui.add(basemapGallery, "top-right");
+    view.ui.add(basemapGallery, "bottom-left");
 });
