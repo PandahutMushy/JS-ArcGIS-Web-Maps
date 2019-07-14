@@ -2,7 +2,7 @@
 
 ## About the Project
 
-JS ArcGIS Web Maps is a single page Web Map application that displays NASA PMM Precipitation data in 2D and 3D. Data is loaded using RESTful endpoints and the ArcGIS JavaScript API. Satellite imagery is loaded dynamically and dislpayed via an ArcGIS feature layer that adjusts to time, location and zoom level. Current version by default displays spatial data from July 11 2019. App still under construction.
+JS ArcGIS Web Maps is a single page Web Map application that displays NASA PMM Precipitation data in 2D and 3D. Data is loaded using RESTful endpoints and the ArcGIS JavaScript API. Satellite imagery is loaded dynamically and dislpayed via an ArcGIS feature layer that adjusts to time, location and zoom level. Current version by default displays spatial data from July 12 2019. App still under construction.
 
 ### Problem Statement
 
